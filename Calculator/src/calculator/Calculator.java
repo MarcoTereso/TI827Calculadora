@@ -22,12 +22,12 @@ public class Calculator {
             switch(op){
                 case 's':
                 case 'S': break;
-          /*      case '+': Soma.somar(); break;
+                case '+': Soma.somar(); break;
                 case '-': Subtrai.subtrair(); break;
                 case '*': Multiplica.multiplicar(); break;
                 case '/': Divide.dividir(); break;
                 case 'e': 
-                case 'E': Expoente.potencia(); break;  */
+                case 'E': Expoente.potencia(); break;  
                 default: System.out.println("Operador incorreto");      
             }
         }while(op!='s' && op!='S');

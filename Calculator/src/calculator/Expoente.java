@@ -1,13 +1,16 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package calculator;
 
-/**
- *
- * @author mtereso
- */
+
 class Expoente {
+
+    static void potencia() {
+     LeDados r = new LeDados();
+     r.leValores();
+     System.out.println("Potência: "+
+      Math.pow(r.valor1, r.valor2) );
+             
+             
+    }
     
 }
