@@ -8,7 +8,7 @@ class IMC {
     static void calculaIMC() {
         float imc;
         LeDados r = new LeDados();
-        r.leValores();
+        r.leValores("Insira o peso em kgs","Insira a altura em metros");
         imc = r.valor1/(r.valor2*r.valor2);
         if(imc<18.5)
             System.out.println("Imc: "+imc+" Está abaixo do peso ideal");

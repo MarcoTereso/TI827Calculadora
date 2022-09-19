@@ -9,5 +9,9 @@ package calculator;
  * @author mtereso
  */
 class Multiplica {
-    
+    static void multiplicar() {
+     LeDados r = new LeDados();
+     r.leValores("Insira um valor","Insira outro valor");
+     System.out.println("Multiplicação: "+(r.valor1*r.valor2));     
+    }
 }

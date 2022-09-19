@@ -9,5 +9,9 @@ package calculator;
  * @author mtereso
  */
 class Soma {
-    
+    static void somar() {
+     LeDados r = new LeDados();
+     r.leValores("Insira um valor","Insira outro valor");
+     System.out.println("Soma: "+(r.valor1+r.valor2));     
+    }
 }
